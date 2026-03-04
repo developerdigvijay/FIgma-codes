@@ -1,226 +1,319 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Boss Coder</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-     <header>
-      <nav>
-        <div class="nav-left">
-          <img loading="lazy" src="assets/logo.svg" alt="" srcset="" />
-        </div>
-        <div class="nav-right">
-          <ul>
-            <li><a href="#">Programs</a></li>
-            <li><a href="#">Review</a></li>
-            <li><a href="#">Features</a></li>
-            <li><a href="#">Teaching</a></li>
-            <button>FreeMasterClasses</button>
-          </ul>
-        </div>
-      </nav>
-    </header> 
-     <section>
-      <div class="hero">
-        <div class="hero-left">
-            <h1>Grab your <span class="highlight">Dream</span> tech offer today</h1>
-            <ul>
-                <li><p>A highly structured, personalized and guided word-class program</p></li>
-                <li><p>Designed by industry experts</p></li>
-                <li><p>That will make you the best software developer out there</p></li>
-                <li><p>For ambitious learners, who don’t want to settle for anything less in their tech careers</p></li>
-            </ul>
-            <button class="btn-apply">Apply Now</button>
-        </div>
-        <div class="hero-right">
-            <div class="ellipse"></div>
-            <img loading="eager" src="assets/hero-img.svg" alt="" srcset="" />
-        </div>
-    </section> 
-     <section>
-      <div class="alumini">
-        <div class="alumini-text">
-          <h2>100+ Successful Alumni working at top product-company</h2>
-        </div>
-        <div class="alumini-companies">
-          <img loading="lazy" src="assets/aluminni-companies.svg" alt="" srcset="">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Boss Coder</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="nav-left">
+        <img loading="lazy" src="assets/logo.svg" alt="BossCoder Logo" />
+      </div>
+      <div class="mobile-menu-btn" id="mobileMenuBtn">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="nav-right" id="navRight">
+        <ul>
+          <li><a href="#programs">Programs</a></li>
+          <li><a href="#reviews">Review</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#teaching">Teaching</a></li>
+          <button>FreeMasterClasses</button>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <section>
+    <div class="hero">
+      <div class="hero-left">
+        <h1>Grab your <span class="highlight">Dream</span> tech offer today</h1>
+        <ul>
+          <li>
+            <p>A highly structured, personalized and guided world-class program</p>
+          </li>
+          <li>
+            <p>Designed by industry experts</p>
+          </li>
+          <li>
+            <p>That will make you the best software developer out there</p>
+          </li>
+          <li>
+            <p>For ambitious learners, who don’t want to settle for anything less in their tech careers</p>
+          </li>
+        </ul>
+        <button class="btn-apply">Apply Now</button>
+      </div>
+      <div class="hero-right">
+        <div class="ellipse"></div>
+        <img loading="eager" src="assets/hero-img.jpg" alt="" srcset="" />
+      </div>
+  </section>
+  <section>
+    <div class="alumini">
+      <div class="alumini-text">
+        <h2>100+ Successful Alumni working at top product-company</h2>
+      </div>
+      <div class="alumini-companies">
+        <img loading="lazy" src="assets/aluminni-companies.svg" alt="" srcset="">
+      </div>
+    </div>
+  </section>
+  <section id="programs">
+    <div class="ourPrograms">
+      <div class="ourPrograms-Text">
+        <h3>Our Programs</h3>
+        <p>Ace Your Skills In Problem Solving In DSA, System Design And Development</p>
+      </div>
+      <div class="ourPrograms-img" loading="lazy">
+        <img loading="lazy" src="assets/our-program-1.svg" alt="" srcset="">
+        <div class="ourPrograms-Text">
+          <h3>For College Students</h3>
+          <p>Who want to rocket-start their career and get placed in their dream companies</p>
+          <button>View Program</button>
         </div>
       </div>
-    </section> 
-     <section>
-      <div class="ourPrograms">
+      <div class="ourPrograms-img">
+        <img loading="lazy" src="assets/our-program-2.svg" alt="" srcset="">
         <div class="ourPrograms-Text">
-          <h3>Our Programs</h3>
-          <p>Ace Your Skills In Problem Solving In DSA, System Design And Development</p>
-        </div> 
-         <div class="ourPrograms-img" loading="lazy">
-          <img loading="lazy" src="assets/our-program-1.svg" alt="" srcset="">
-          <div class="ourPrograms-Text">
-            <h3>For Collage Students</h3>
-            <p>Who want to rocket-start their career and get placed in their dream companies</p>
-            <button>View Program</button>
-          </div>
-        </div> 
-         <div class="ourPrograms-img loading="lazy"">  
-          <img loading="lazy" src="assets/our-program-2.svg" alt="" srcset="">
-          <div class="ourPrograms-Text">
-            <h3>For Working Professionals</h3>
-            <p>Who wish to shift to top product based companies and ace their tech careers</p>
-            <button>View Program</button>
-          </div>
-        </div> 
-       </div>
-    </section>
-    <section class="review">
-
+          <h3>For Working Professionals</h3>
+          <p>Who wish to shift to top product based companies and ace their tech careers</p>
+          <button>View Program</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="review" id="reviews">
+    <h3 class="review-title">What Our Students Say</h3>
+    <div class="reviews-container">
       <div class="review-Card">
         <div class="review-card-top">
-          <img loading="lazy" src="assets/review-1.svg" alt="">
+          <img loading="lazy" src="assets/review-1.svg" alt="Akhil Reddy">
           <div class="person-info">
             <h4>Akhil Reddy</h4>
-            <p>software engineer at Recco</p>
+            <p>Software Engineer at Recco</p>
           </div>
         </div>
         <div class="review-card-bottom">
           <span><img loading="lazy" src="assets/quote.svg" alt=""></span>
           <div class="review-Text">
-            <p>Bosscoder academy made me a complete software engineer.
-              I was working in infosys & was  struggling to crack the product companies due to lack of understanding in DSA and system design.
-              Now I am working in Recco.
+            <p>Bosscoder academy made me a complete software engineer. I was working in Infosys & was struggling to
+              crack the product companies due to lack of understanding in DSA and system design. Now I am working in
+              Recco.
             </p>
           </div>
           <span class="quoteRight"><img loading="lazy" src="assets/quote-2.svg" alt=""></span>
+        </div>
+        <p class="quoteRight">read more</p>
+      </div>
+      <div class="review-Card">
+        <div class="review-card-top">
+          <img loading="lazy" src="assets/review-1.svg" alt="Priya Sharma">
+          <div class="person-info">
+            <h4>Priya Sharma</h4>
+            <p>Software Engineer at Flipkart</p>
           </div>
-          <p class="quoteRight">read more</p>
-          <button>View Program</button>
-        </section> 
-         <section class="boss-coder-container">
-          <div class="boss-coder-Text">
-            <h3>Bosscoder end-to-end solutions</h3>
-            <p>to give you an immersive learning experience and help you ace in your tech career</p>
-          </div> 
-          <div class="boss-coder-box">
-            <div class="boss-coder-left">
-
-              <div class="bcText">
-                <img loading="lazy" src="assets/people.svg" alt="">
-                <p>World-class curriculum, designed by industry experts</p>
-              </div>
-              <div class="bcText">
-                <img loading="lazy" src="assets/network-icon.svg" alt="">
-                <p>World-class curriculum, designed by industry experts</p>
-              </div>
-              <div class="bcText">
-                <img loading="lazy" src="assets/bulb-icon.svg" alt="">
-                <p>World-class curriculum, designed by industry experts</p>
-              </div>
-              <div class="bcText">
-                <img loading="lazy" src="assets/msg-icon.svg" alt="">
-                <p>World-class curriculam, designed by industry experts</p>
-              </div>
-              <div class="bcText">
-                <img loading="lazy" src="assets/up-icon.svg" alt="">
-                <p>World-class curriculam, designed by industry experts</p>
-              </div>
-            </div>
-            <div class="boss-coder-right">
-              <img loading="lazy" src="assets/boss-coder-img.svg" alt="">
-            </div>
+        </div>
+        <div class="review-card-bottom">
+          <span><img loading="lazy" src="assets/quote.svg" alt=""></span>
+          <div class="review-Text">
+            <p>The structured approach and mentorship at BossCoder helped me transition from a service-based company to
+              a top product-based company. The DSA practice sessions were incredibly helpful!
+            </p>
           </div>
-        </section> 
-
-         <section>
-          <div class="placement-container">
-            <div class="placement-text">
-              <h3>placement and career support</h3>
-              <p>helping students get exposed to  a world opportunities</p>
-            </div>
-            <div class="placement-card-container">
-              <div class="placement-card">
-                <span>
-                  <img loading="lazy" src="assets/placement-1.svg" alt="">
-                </span>
-                <h6>career portfolio optimization</h6>
-                <p>
-                  Referrals and Career Tips by 400+ Alumni and Mentors from top product-based companies
-                </p>
-              </div>
-              <div class="placement-card">
-                <span>
-                  <img loading="lazy" src="assets/placement-1.svg" alt="">
-                </span>
-                <h6>career portfolio optimization</h6>
-                <p>
-                  Referrals and Career Tips by 400+ Alumni and Mentors from top product-based companies
-                </p>
-              </div>
-              <div class="placement-card">
-                <span>
-                  <img loading="lazy" src="assets/placement-1.svg" alt="">
-                </span>
-                <h6>career portfolio optimization</h6>
-                <p>
-                  Referrals and Career Tips by 400+ Alumni and Mentors from top product-based companies
-                </p>
-              </div>
-              <div class="placement-card">
-                <span>
-                  <img loading="lazy" src="assets/placement-1.svg" alt="">
-                </span>
-                <h6>career portfolio optimization</h6>
-                <p>
-                  Referrals and Career Tips by 400+ Alumni and Mentors from top product-based companies
-                </p>
-              </div>
-              <div class="placement-card">
-                <span>
-                  <img loading="lazy" src="assets/placement-1.svg" alt="">
-                </span>
-                <h6>career portfolio optimization</h6>
-                <p>
-                  Referrals and Career Tips by 400+ Alumni and Mentors from top product-based companies
-                </p>
-              </div>
-            </div>
+          <span class="quoteRight"><img loading="lazy" src="assets/quote-2.svg" alt=""></span>
+        </div>
+        <p class="quoteRight">read more</p>
+      </div>
+      <div class="review-Card">
+        <div class="review-card-top">
+          <img loading="lazy" src="assets/review-1.svg" alt="Rohan Mehta">
+          <div class="person-info">
+            <h4>Rohan Mehta</h4>
+            <p>Backend Engineer at Cred</p>
           </div>
-        </section> 
-      
-        <section>
-          <footer>
-            <div class="f-left">
-              <span><img loading="lazy" src="assets/logo.svg" alt=""></span>
-              <p>Helping ambitious learners upskill themselves & shift to top product based companies</p>
-            </div>
-            <div class="f-right">
-              <div class="f-consist-left">
-                <h6>About</h6>
-                <div class="links">
-                  <a href="#">About us</a>
-                  <a href="#">Contact us</a>
-                  <a href="#">Terms of use</a>
-                  <a href="#">Refund Policy</a>
-                  <a href="#">Privacy Policy</a>
-                </div>
-              </div>
-              <div class="f-consist-right">
-                <h6>Useful Links</h6>
-                <div class="links">
-                  <a href="#">Instagram</a>
-                  <a href="#">Facebook</a>
-                  <a href="#">Linked In</a>
-                  <a href="#">Telegram</a>
-                  <a href="#">Youtube</a>
+        </div>
+        <div class="review-card-bottom">
+          <span><img loading="lazy" src="assets/quote.svg" alt=""></span>
+          <div class="review-Text">
+            <p>Best investment I made for my career! The system design curriculum is top-notch and the mock interviews
+              gave me the confidence to crack tough interviews.
+            </p>
+          </div>
+          <span class="quoteRight"><img loading="lazy" src="assets/quote-2.svg" alt=""></span>
+        </div>
+        <p class="quoteRight">read more</p>
+      </div>
+      <div class="review-Card">
+        <div class="review-card-top">
+          <img loading="lazy" src="assets/review-1.svg" alt="Sneha Patel">
+          <div class="person-info">
+            <h4>Sneha Patel</h4>
+            <p>Full Stack Developer at Uber</p>
+          </div>
+        </div>
+        <div class="review-card-bottom">
+          <span><img loading="lazy" src="assets/quote.svg" alt=""></span>
+          <div class="review-Text">
+            <p>The live coding sessions and weekly assessments kept me on track. I went from solving 2-3 problems weekly
+              to 20+ problems. Now I'm working at Uber with a 300% salary hike!
+            </p>
+          </div>
+          <span class="quoteRight"><img loading="lazy" src="assets/quote-2.svg" alt=""></span>
+        </div>
+        <p class="quoteRight">read more</p>
+      </div>
+      <div class="review-Card">
+        <div class="review-card-top">
+          <img loading="lazy" src="assets/review-1.svg" alt="Vikram Singh">
+          <div class="person-info">
+            <h4>Vikram Singh</h4>
+            <p>SDE-II at Amazon</p>
+          </div>
+        </div>
+        <div class="review-card-bottom">
+          <span><img loading="lazy" src="assets/quote.svg" alt=""></span>
+          <div class="review-Text">
+            <p>What sets BossCoder apart is their focus on practical problem-solving. The blind-coded mock interviews
+              prepared me for the real Amazon interviews. Highly recommended for anyone targeting FAANG!
+            </p>
+          </div>
+          <span class="quoteRight"><img loading="lazy" src="assets/quote-2.svg" alt=""></span>
+        </div>
+        <p class="quoteRight">read more</p>
+      </div>
+    </div>
+  </section>
+  <section class="boss-coder-container" id="features">
+    <div class="boss-coder-Text">
+      <h3>Bosscoder end-to-end solutions</h3>
+      <p>to give you an immersive learning experience and help you ace in your tech career</p>
+    </div>
+    <div class="boss-coder-box">
+      <div class="boss-coder-left">
 
-                </div>
+        <div class="bcText">
+          <img loading="lazy" src="assets/people.svg" alt="">
+          <p>World-class curriculum, designed by industry experts</p>
+        </div>
+        <div class="bcText">
+          <img loading="lazy" src="assets/network-icon.svg" alt="">
+          <p>Extensive networking with 400+ mentors from top companies</p>
+        </div>
+        <div class="bcText">
+          <img loading="lazy" src="assets/bulb-icon.svg" alt="">
+          <p>Personalized doubt-solving sessions for conceptual clarity</p>
+        </div>
+        <div class="bcText">
+          <img loading="lazy" src="assets/msg-icon.svg" alt="">
+          <p>24/7 interactive support for seamless learning experience</p>
+        </div>
+        <div class="bcText">
+          <img loading="lazy" src="assets/up-icon.svg" alt="">
+          <p>Career advancement guidance and interview preparation</p>
+        </div>
+      </div>
+      <div class="boss-coder-right">
+        <img loading="lazy" src="assets/boss-coder-img.svg" alt="">
+      </div>
+    </div>
+  </section>
 
-              </div>
-            </div>
-          </footer>
-        </section>
-      </body>
+  <section>
+    <div class="placement-container">
+      <div class="placement-text">
+        <h3>placement and career support</h3>
+        <p>helping students get exposed to a world opportunities</p>
+      </div>
+      <div class="placement-card-container">
+        <div class="placement-card">
+          <span>
+            <img loading="lazy" src="assets/placement-1.svg" alt="">
+          </span>
+          <h6>Career Portfolio Optimization</h6>
+          <p>
+            Build professional resumes and LinkedIn profiles that stand out to recruiters
+          </p>
+        </div>
+        <div class="placement-card">
+          <span>
+            <img loading="lazy" src="assets/placement-1.svg" alt="">
+          </span>
+          <h6>Mock Interviews</h6>
+          <p>
+            Practice with real interview scenarios and get feedback from industry experts
+          </p>
+        </div>
+        <div class="placement-card">
+          <span>
+            <img loading="lazy" src="assets/placement-1.svg" alt="">
+          </span>
+          <h6>Referral Network</h6>
+          <p>
+            Get referrals from 400+ Alumni and Mentors working at top product-based companies
+          </p>
+        </div>
+        <div class="placement-card">
+          <span>
+            <img loading="lazy" src="assets/placement-1.svg" alt="">
+          </span>
+          <h6>Aptitude Preparation</h6>
+          <p>
+            Master quantitative ability, logical reasoning, and verbal skills for placements
+          </p>
+        </div>
+        <div class="placement-card">
+          <span>
+            <img loading="lazy" src="assets/placement-1.svg" alt="">
+          </span>
+          <h6>Salary Negotiation</h6>
+          <p>
+            Learn effective negotiation techniques to maximize your job offers
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-      </html>   
-      
+  <section>
+    <footer>
+      <div class="f-left">
+        <span><img loading="lazy" src="assets/logo.svg" alt=""></span>
+        <p>Helping ambitious learners upskill themselves & shift to top product based companies</p>
+      </div>
+      <div class="f-right">
+        <div class="f-consist-left">
+          <h6>About</h6>
+          <div class="links">
+            <a href="#">About us</a>
+            <a href="#">Contact us</a>
+            <a href="#">Terms of use</a>
+            <a href="#">Refund Policy</a>
+            <a href="#">Privacy Policy</a>
+          </div>
+        </div>
+        <div class="f-consist-right">
+          <h6>Useful Links</h6>
+          <div class="links">
+            <a href="#">Instagram</a>
+            <a href="#">Facebook</a>
+            <a href="#">Linked In</a>
+            <a href="#">Telegram</a>
+            <a href="#">Youtube</a>
+
+          </div>
+
+        </div>
+      </div>
+    </footer>
+  </section>
+  <script src="script.js"></script>
+</body>
+
+</html>
